@@ -1,4 +1,4 @@
-# r-wkit
+# r-swapi-client
 
 ## en
 This application is Brazilian Portuguese only.
@@ -8,8 +8,8 @@ This application is Brazilian Portuguese only.
 
 Essa página funciona como cliente da Star Wars API.
 
-Você pode procurar qualquer personagem dos filmes (que valem a pena) e 
-escolher a forma de visualização. 
+Você pode procurar qualquer personagem dos filmes (que valem a pena) e
+escolher a forma de visualização.
 
 A aplicação tem as características:
 - utiliza o fetch() api
