@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  background: url('./images/bg1.jpg') no-repeat center center fixed;  /* Image by <a href="https://pixabay.com/users/mclau19-8837702/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5508435">Clau M</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5508435">Pixabay</a> */
+  background-color: #666;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-box {
+  margin: 3rem;
+}
+
+.title {
+  color: #333;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0, 0.4);
+  font-size: 3rem;
+}
+
+.sub-title {
+  color: white;
+  transform: translateX(50%);
+  font-size: 1rem;
+  text-shadow: 0 0 5px rgb(0, 0, 0, 0.9);
+}
+
+.input-data {
+  margin: 10px 10px;
+  padding: 10px 10px;
+  width: 20rem;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 15px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.input-label {
+  margin: 2px 2px;
+  padding: 10px 10px;
+
+}
+
+.input-data #search-box {
+  margin: 8px;
+  padding: 10px 10px;
+  width: 25rem;
+  text-align: center;
+  font-family: inherit;
+  font-size: 1.4rem;
+  color: green;
+}
+
+input {
+  border-radius: 20px 5px;
+  border: none;
+  border-bottom: 5px solid #999;
+}
+
+input:focus {
+  border-radius: 5px 20px;
+  border: none;
+  border-bottom: 5px solid green;
+  box-shadow: none;
+  outline-offset: 0px;
+  outline: none;
+  transition: ease 800ms;
+
+}
+
+
+.output-data {
+  height: 30vh;
+  width: 80%;
+  background-color: rgb(255,255,255, 0.8);
+  border-radius: 2rem;
+  margin: 2rem;
+  padding: 2rem 2rem 2rem 2rem;
+  overflow-y: auto;
+  line-height: 1.5rem;
+}
+
+
+.output-data::-webkit-scrollbar {
+  width: .75rem;
+}
+
+.output-data::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0, 0.1);
+}
+
+.output-data::-webkit-scrollbar-thumb {
+  border-radius: 10rem;
+  background: black;
+}
