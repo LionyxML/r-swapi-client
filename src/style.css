@@ -63,6 +63,21 @@ body {
   .sub-title {
     transform: translateX(0);
   }
+  .input-data {
+    width: 19rem ! important;
+  }
+  .input-data #search-box {
+    width: 20rem !important;
+  }
+  .output-option {
+    width: 18rem;
+  }
+  .new-radio {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
 
 .input-data {
@@ -164,7 +179,8 @@ input:focus {
 
 .output-option {
   display: flex;
-  padding: 0.6rem;
+  align-items: center;
+  padding: 0.6rem 1.2rem 0.6rem 1.2rem;
   background-color: rgb(255, 255, 255, 0.6);
   border-radius: 15px 50px;
   box-shadow: 4px 4px 8px rgb(0, 0, 0, 0.8);
