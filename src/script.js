@@ -123,7 +123,7 @@ var dictionary = {
   'female' : 'feminino',
   'male' : 'masculino',
   'unknown' : '-',
-  'n/a' : 'não tem',
+  'n/a' : '-',
   'blond' : 'loiro',
   'blue' : 'azul',
   'hermaphrodite' : 'hermafrodita',
@@ -132,13 +132,24 @@ var dictionary = {
   'black' : 'preto',
   'orange' : 'laranja',
   'brown' : 'marrom',
-  'green-tan' : 'bronzeado verde'
+  'green-tan' : 'bronzeado verde',
+  'white' : 'branco',
+  'green' : 'verde',
+  'mottle' : 'manchado',
+  'gray' : 'cinza',
+  'grey' : 'cinza',
+  'none' : '-',
+  'yellow' : 'amarela',
+  'gold' : 'dourada',
+  'dark' : 'escura',
+  'auburn' : 'ruivo',
+  'red' : 'vermelho'
 }
 
 function translate(words) {
 
   for (const [key, value] of Object.entries(dictionary)) {
-    words = words.replace(key, value);
+    words = words.replaceAll(key, value);
   }
 
   return words;
