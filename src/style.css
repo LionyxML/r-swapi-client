@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background: url('./images/bg6.jpg') no-repeat center center fixed;  /* Image by <a href="https://pixabay.com/users/mclau19-8837702/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5508435">Clau M</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5508435">Pixabay</a> */
+  background: url('images/bg6.jpg') no-repeat center center fixed;  /* Image by <a href="https://pixabay.com/users/mclau19-8837702/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5508435">Clau M</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5508435">Pixabay</a> */
   background-color: #666;
   background-size: cover;
   font-family: 'Roboto', sans-serif;
