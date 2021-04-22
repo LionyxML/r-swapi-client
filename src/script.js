@@ -5,7 +5,7 @@
 
 var searchBox = document.getElementById('search-box');
 var consoleBox = document.getElementById('console');
-var apiSearch = 'https://swapi.dev/api/people/?search='
+var apiSearch = 'https://swapi.dev/api/people/?search=';
 
 var optRadio1 = document.getElementById('radio1');
 var optRadio2 = document.getElementById('radio2');
@@ -144,7 +144,7 @@ var dictionary = {
   'dark' : 'escura',
   'auburn' : 'ruivo',
   'red' : 'vermelho'
-}
+};
 
 function translate(words) {
 
@@ -171,14 +171,14 @@ var botClose = document.getElementById('close');
 
 botInfo.onclick = function () {
   modal.style.display = "block";
-}
+};
 
 botClose.onclick = function () {
   modal.style.display = "none";
-}
+};
 
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-}
+};
