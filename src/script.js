@@ -170,15 +170,15 @@ var botInfo = document.getElementById('bot-info');
 var botClose = document.getElementById('close');
 
 botInfo.onclick = function () {
-  modal.style.display = "block";
+  modal.classList.add('show');
 };
 
 botClose.onclick = function () {
-  modal.style.display = "none";
+  modal.classList.remove('show');
 };
 
 window.onclick = function(event) {
   if (event.target == modal) {
-    modal.style.display = "none";
+    modal.classList.remove('show');
   }
 };

@@ -29,9 +29,9 @@
     </div>
 
     <div class="input-data">
-      <div class="input-label">Entre com o nome de uma personagem</div>
+      <div class="input-label">Entre com o nome de uma personagem:</div>
       <input id="search-box" type="text">
-      <span id="closex">&nbsp&times&nbsp</span>
+      <span id="closex">&times</span>
     </div>
 
     <div class="output-option">
@@ -64,7 +64,7 @@
 
 
 
-  <div id="modal-info" class="modal-info">
+  <div id="modal-info" class="modal-info" role="dialog" data-backdrop="static" data-keyboard="false">
       <div class="modal-conteudo">
         <span id="close">&times</span>
         <div class="row">
@@ -82,7 +82,7 @@
         <hr>
         <div class="pt-br">
           <p>Esse é um cliente para a Star Wars API (swapi).</p>
-          <p>Procure o personagem desejado digitando o nome ou parte do nome
+          <p>Procure a personagem desejada digitando o nome ou parte do nome
              na barra de pesquisa. O resultado é mostrado de forma assíncrona
              (pelo fetch()).
           </p>
